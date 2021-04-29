@@ -12,7 +12,7 @@
   
   header, footer {
     padding: 20px 35px;
-    background-color: #1a759f;
+    background-color: #ffe5d9;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@
     background-image: url(../css/images/image.jpeg);
     background-size: cover;
       background-position: 50% 35%;
-      height: 500px;
+      height: 300px;
       display: flex;
       justify-content: flex-end;
       align-items: flex-start;
@@ -117,4 +117,42 @@
       font-style: arial;
     }
   /* About Me Styling Ends*/
+
+  /* My Work Section */
+
+#work {
+    margin: 40px;
+  padding: 10px;
+  background-color: none}
+  
+  .work-title {
+    display: flex;
+  margin: 60px;
+  }
+  
+  .work-title h2 {
+    flex: 1;
+    padding: 30px;
+    border-right: 3px solid #52b69a;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .work-title .run-buddy {
+    background-image: url(../css/images/hero-bg.jpeg);
+    background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+  }
+  
+  
+  .work-title a {
+  display: grid;
+  border:3px solid #52b69a;
+  justify-content: space-between;
+  width: 70%;
+  margin: 40px;
+  padding: 30px;
+  
+  }
   
