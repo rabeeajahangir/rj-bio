@@ -84,3 +84,37 @@
     font-size: 28px;
   }
   /*Hero Styling Ends*/
+
+   /*About Me*/
+
+   .about-me {
+    margin: 40px;
+  padding: 10px;
+  }
+  
+  
+    .section-title {
+      margin: 40px;
+      display: flex;
+    }
+  
+    .section-title h2 {
+      width: 200px;
+      flex: 1;
+      text-align:center;
+    }
+  
+    .section-title p{
+      flex: 5;
+      border-left: 3px solid #52b69a;
+      padding: 20px;
+    }
+  
+   .intro {
+      font-size: 20px;
+      text-align: center;
+      color: #024e76;
+      font-style: arial;
+    }
+  /* About Me Styling Ends*/
+  
