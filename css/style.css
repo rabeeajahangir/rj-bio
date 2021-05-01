@@ -121,16 +121,16 @@
   /* My Work Section */
 
 #work {
-    margin: 40px;
-  padding: 10px;
-  display: flex;
-margin: 10px;
+margin: 40px;
+padding: 10px;
+display: flex;
+margin: auto;
 border-right: #52b69a;}
 
 .heading {
   padding: 40px;
   margin: 25px;
-  height: 585px;
+  height: 700px;
   border-right:3px solid #52b69a;
 }
   
@@ -159,9 +159,25 @@ border-right: #52b69a;}
   
   .work-title .box2 {
 
-    background-image: ;
+    background-image: url(../css/images/image.jpeg)
   }
   
+  .work-title .box3 {
+    background-image: url(../css/images/3-robot.jpeg);
+    background-size: contain;
+    margin-top: auto;
+            background-position: cover;
+            background-repeat: no-repeat;
+            postion: g
+  }
+
+
+  work-title .box4 {
+    background-image: url(../css/images/social-media-marketing.jpg);
+    background-size: contain;
+  margin-top: 20px;
+            background-position: cover;
+  }
   .work-title a {
   display: grid;
   border:3px solid #52b69a;
