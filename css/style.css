@@ -123,11 +123,20 @@
 #work {
     margin: 40px;
   padding: 10px;
-  background-color: none}
+  display: flex;
+margin: 10px;
+border-right: #52b69a;}
+
+.heading {
+  padding: 40px;
+  margin: 25px;
+  height: 585px;
+  border-right:3px solid #52b69a;
+}
   
   .work-title {
-    display: flex;
-  margin: 60px;
+    display: grid;
+  margin: 50px;
   }
   
   .work-title h2 {
@@ -138,13 +147,20 @@
     text-align: center;
   }
   
-  .work-title .run-buddy {
+  .work-title .box1 {
     background-image: url(../css/images/hero-bg.jpeg);
     background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+    margin-top: auto;
+            background-position: cover;
+            width: 750px;
+            height: 200px;
+           
   }
   
+  .work-title .box2 {
+
+    background-image: ;
+  }
   
   .work-title a {
   display: grid;
