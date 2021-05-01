@@ -2,11 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   
-  }
-  .main-page {
-    background-color: #2a9d8f;
-  }
+    font-color: #e9c46a;  }
+
   body {
     margin: 0px;
     padding: 10px;
@@ -48,7 +45,7 @@
   
   header nav ul li a {
     margin: 0 30px;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
@@ -73,10 +70,12 @@
       justify-content: flex-end;
       align-items: flex-start;
       position: relative;
+      padding-bottom: 450px;      
   }
   .quote {
     width: 35%;
     text-align: right;
+    font-weight: bold;
     margin: 3.5%;
     color: #e76f51;
     font-size: 18px;
@@ -92,7 +91,7 @@
    /*About Me*/
 
    .about-me {
-    margin: 50px;
+  
   padding: 10px;
   }
   
@@ -100,21 +99,23 @@
     .section-title {
       margin: 10px;
       display: flex;
+      padding: 0px;
     }
   
     .section-title h2 {
       width: 200px;
       flex: 1;
       text-align: center;
+      font-weight: solid;
       margin: 50px;
-      font-color: #e9c46a;
+      color: #e9c46a;
     }
   
     .section-title p{
       flex: 5;
       border-left: 3px solid #e76f51;
       padding: 20px;
-      font-color: #e9c46a;
+      color: #e9c46a;
     }
   
    .intro {
@@ -139,11 +140,15 @@ border-right: #e76f51;}
   margin: 25px;
   height: 700px;
   border-right:3px solid #e76f51;
+  color: #e9c46a;
 }
   
   .work-title {
     display: grid;
   margin: 50px;
+  grid-template-columns: max-content;;
+  grid-template-rows: 2;
+  grid-gap: 10px;
   }
   
   .work-title h2 {
@@ -152,6 +157,7 @@ border-right: #e76f51;}
     border-right: 3px solid #e76f51;
     width: 200px;
     text-align: center;
+    color: #e9c46a;
   }
   
   .work-title .box1 {
@@ -161,29 +167,43 @@ border-right: #e76f51;}
             background-position: cover;
             width: 750px;
             height: 200px;
+            color: #e9c46a;
            
   }
   
   .work-title .box2 {
-
-    background-image: url(../css/images/image.jpeg)
+    background-image: url(../css/images/image.jpeg);
+    color: #e9c46a;
+    width: 50%;
+    background-position: cover;
+ 
   }
   
   .work-title .box3 {
     background-image: url(../css/images/3-robot.jpeg);
     background-size: contain;
     margin-top: auto;
-            background-position: cover;
+            background-position: center;
             background-repeat: no-repeat;
-            postion: g
+            color: #e9c46a;
+            width: 50%;
+            text-align: right;
+            
+
+            
+
   }
 
 
-  work-title .box4 {
+  .work-title .box4 {
     background-image: url(../css/images/social-media-marketing.jpg);
     background-size: contain;
   margin-top: 20px;
-            background-position: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 50%;         
+            color: #e9c46a;
+            text-align:justify
   }
   .work-title a {
   display: grid;
@@ -199,21 +219,24 @@ border-right: #e76f51;}
   /*Contact Section*/
 
   #contact {
-
 padding: 10px;
-
 border-right: #e76f51;
 display: flex;}
 
 .main {
-  padding: 80px;
+color: #e9c46a;
+  padding: 55px;
   margin: 50px;
   height: 150px;
   border-right:3px solid #e76f51;
 }
 
+footer {
+  background-color: #264653;
+}
   footer nav {
     margin: 100px;
+    font-color: #e9c46a;
   }
   
   footer nav ul {
@@ -226,13 +249,14 @@ display: flex;}
   
   footer nav ul li a {
     margin: 0 30px;
-    font-weight: lighter;
+    font-weight: lbold;
+    color: #e9c46a;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
   
  footer nav ul li a:hover {
-    background: #e76f51;
+    background: #52b69a;
     color: #024e76;
     border-radius: 15px;
     text-shadow: none;}
