@@ -85,30 +85,28 @@
     bottom: 8px;
     right: 16px;
     font-size: 28px;
+    border: solid #e76f51;
   }
   /*Hero Styling Ends*/
 
    /*About Me*/
 
-   .about-me {
+   #about-me {
   
   padding: 10px;
   }
   
   
     .section-title {
-      margin-top: 20px;
-      margin-right: 375px;
       display: flex;
       padding: 0px;
     }
   
     .section-title h2 {
       width:200px;
-      flex: 1;
       text-align: center;
       font-weight: solid;
-      margin: 60px;
+      margin: 25px;
       color: #e9c46a;
     }
   
@@ -121,6 +119,7 @@
   
    .intro {
       font-size: 20px;
+      display: flex;
       text-align: center;
       color: #e9c46a;
       font-style: arial;
@@ -133,217 +132,235 @@
 margin: 40px;
 padding: 10px;
 display: flex;
-margin: auto;
-border-right: #e76f51;}
+border-right: #e76f51;
+}
 
 #work h2 {
-  padding: 95px;
+  padding:62px;
   margin: 25px;
-  height: 700px;
   border-right:3px solid #e76f51;
   color: #e9c46a;
 }
   
-  .work-title {
-    display: grid;
-  margin: 50px;
-  grid-template-columns: max-content;;
-  grid-template-rows: 2;
-  grid-gap: 10px;
-  flex: wrap;
-  }
+ .work-title {
+   display: flex;
+   flex-wrap: wrap;
+ }
   
   .work-title h2 {
-    flex: 1;
     padding: 30px;
     border-right: 3px solid #e76f51;
-    width: 200px;
     text-align: center;
     color: #e9c46a;
   }
-  
-  .work-title .box1 {
-    background-image: url(../css/images/hero-bg.jpeg);
-    background-size: contain;
-    grid-column: 1/3;
-    grid-row: 1/3;
-    margin-top: auto;
-            background-position: cover;
-            width: 750px;
-            height: 200px;
-            color: #e9c46a;
-           
-  }
-  
-  .work-title .box2 {
-    background-image: url(../css/images/image.jpeg);
-    color: #e9c46a;
- 
-    width: 50%;
-    background-size: contain;
-    background-position: center;
-    width: 300px;
-            height: 50px;
-  }
-  
-  .work-title .box3 {
-    background-image: url(../css/images/3-robot.jpeg);
-    background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: #e9c46a;
-            width: 300px;
-            height: 50px;
-            text-align: right;}
-
-
-  .work-title .box4 {
-    background-image: url(../css/images/social-media-marketing.jpg);
-    background-size: contain;
-  margin-top: 20px;
- 
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 300px;
-            height: 50px;         
-            color: #e9c46a;
-            text-align:justify
-  }
-  
   .work-title a {
-  display: grid;
-  border:3px solid #e76f51;
-  justify-content: space-between;
-  width: 70%;
-  margin: 40px;
-  padding: 30px;
+    display: flex;
+    border:3px solid #e76f51;
+    justify-content: space-between;
+    width: 70%;
+    margin: 40px;
+    padding: 30px;
+    
+    }
   
-  }
+    .work-title .box1 {
+      background-image: url(../css/images/hero-bg.jpeg);
+      background-size: contain;
+      grid-column: 1/3;
+      grid-row: 1/3;
+      margin-top: auto;
+              background-position: cover;
+              width: 750px;
+              height: 200px;
+              color: #e9c46a;
+             
+    }
+    
+    .work-title .box2 {
+      background-image: url(../css/images/image.jpeg);
+      color: #e9c46a;
+   
+      width: 50%;
+      background-size: contain;
+      background-position: center;
+      width: 300px;
+              height: 50px;
+    }
+    
+    .work-title .box3 {
+      background-image: url(../css/images/3-robot.jpeg);
+      background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              color: #e9c46a;
+              width: 300px;
+              height: 50px;
+              text-align: right;}
+  
+  
+.work-title .box4 {
+background-image: url(../css/images/social-media-marketing.jpg);
+background-size: contain;
+margin-top: 20px;
+background-position: center;
+background-repeat: no-repeat;
+width: 300px;
+height: 50px;         
+color: #e9c46a;
+text-align:justify;}
+
+
   
 
   /*Contact Section*/
 
-  #contact {
-
-padding: 10px;
-border-right: #e76f51;
-display: flex;}
-
-.main {
-  color: #e9c46a;
-  padding: 100px;
-  margin: 50px;
-  height: 150px;
-  border-right:3px solid #e76f51;
-}
-
-footer {
-  background-color: #264653;
-  height: 300px;
-}
-  footer nav {
-    margin: 100px;
-  }
   
-  footer nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  footer nav ul li a {
-    margin: 0 30px;
-    font-weight: lbold;
-    color: #e9c46a;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-  }
-  
- footer nav ul li a:hover {
-    background: #52b69a;
+    
+    footer {
+      padding: 30px 35px;
+      background-color: #264653;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background-size: cover;
+
+    
+    }
+    
+    footer h3 {
+      font-weight: bold;
+      margin: 0;
+      font-size: 36px;
+      color: #e9c46a;
+      display: flex;
+    }
+    
+    footer a {
+      margin: auto 0;
+      text-decoration: none;
+      color: #e9c46a;
+      
+    }
+    
+    footer nav {
+      margin: 7px 0;
+    }
+    
+    footer nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+    }
+    
+    footer nav ul li a {
+      margin: 0 40px;
+      
+      font-weight: bold;
+      font-size: 1.55vw;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    
+    footer nav ul li a:hover {
+      background: #52b69a;
     color: #024e76;
-    border-radius: 15px;
-    text-shadow: none;}
-
+      border-radius: 15px;
+      text-shadow: none;}
+    
   
       /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS*/
-      @media screen and (max-width: 980px) {
-      
-        * {
-          box-sizing: border-box;
-          max-width: 100%;
-        }
-        header {
-          padding-bottom: 0;
-          width: 100%;
-          justify-content: center;
-          position: relative;}
 
-          header nav ul {
-            margin-top: 20px;
-            width: 100%;
-            justify-content: center;
-          }
-        
-          header nav ul li a {
-            font-size: 20px;
-          }
-        
-          .hero {
-            width: 100%;
-            margin: 20x;
-          }
+@media screen and (max-width: 768px ){
+  .hero {
+    width: 600x;
+    height: 500px;
+  }
 
-          .quote {
-            display: none;
-          }
 
-          .section-title {
-            max-width: 100%;
-            display: grid;
-            border:none;
-          }
- 
-#work {
-  display: grid;
+
+.section-title {
+  flex-direction: column;
+  
 }
 
-.work-title {
-width: 100%;
-  margin-top: auto;
-  grid-gap: 10px;
-  grid-auto-flow: row;
-  border:none;
- 
+.section-title h2 {
+  border: none;
+  border-bottom: solid 3px #e76f51;
+  text-align: center;}
 
-}
+  .section-title p {
+border: none;
+  }
 
-footer {
-  padding-bottom: 0;
-  justify-content: space-evenly;
-  position: relative;
-  display: grid;}
+  #work {
+    flex-direction: column;
+  }
 
+  #work h2 {
+    border: none;
+    border-bottom: solid 3px #e76f51;
+    text-align: center;}
 
-
-    footer nav ul {
-      margin: top 2px;
-      width: 100%;
-      justify-content: center;
+    #contact {
+      flex-direction: column;
     }
   
-    footer nav ul li a {
-      font-size: 20px;
+    #contact h2 {
+      border: none;
+      border-bottom: solid 3px #e76f51;
+      text-align: center;
     }
+
+
+
+
+@media screen and (max-width: 575px ){
+
+
+
+  .hero {
+    width: 600x;
+    height: 500px;
   }
-.main h3 {
-  padding: 10px;
-  margin: 10px;
+.section-title {
+  flex-direction: column;
+  text-align: center;
+  background-color: #e76f51;
 }
 
-  .links {
-    margin: 100x;
-   
+.section-title h2 {
+  border: none;
+  border-bottom: solid 3px #e76f51;
+  text-align: center;
+  margin: none;
+  padding: none;
+align-items: center;
+
+
+  .section-title p {
+border: none;
+
   }
+
+  #work {
+    flex-direction: column;
+  }
+
+  .work-title {
+    background-color: #264653
+  }
+  #work h2 {
+    border: none;
+    border-bottom: solid 3px #e76f51;
+    text-align: center;}
+
+    #contact {
+      flex-direction: column;
+    }
+  
+    #contact h2 {
+      border: none;
+      border-bottom: solid 3px #e76f51;
+      text-align: center;
+    }
