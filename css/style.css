@@ -271,8 +271,13 @@ footer {
       /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS*/
       @media screen and (max-width: 980px) {
       
+        * {
+          box-sizing: border-box;
+          max-width: 100%;
+        }
         header {
           padding-bottom: 0;
+          width: 100%;
           justify-content: center;
           position: relative;}
 
@@ -288,6 +293,7 @@ footer {
         
           .hero {
             width: 100%;
+            margin: 20x;
           }
 
           .quote {
@@ -302,7 +308,6 @@ footer {
  
 #work {
   display: grid;
-  margin-bottom: 0;
 }
 
 .work-title {
