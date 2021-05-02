@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-color: #e9c46a;  }
+}
 
   body {
     margin: 0px;
@@ -175,8 +175,8 @@ border-right: #e76f51;}
     background-image: url(../css/images/image.jpeg);
     color: #e9c46a;
     width: 50%;
-    background-position: cover;
- 
+    background-size: contain;
+    background-position: center;
   }
   
   .work-title .box3 {
@@ -187,12 +187,7 @@ border-right: #e76f51;}
             background-repeat: no-repeat;
             color: #e9c46a;
             width: 50%;
-            text-align: right;
-            
-
-            
-
-  }
+            text-align: right;}
 
 
   .work-title .box4 {
@@ -205,6 +200,7 @@ border-right: #e76f51;}
             color: #e9c46a;
             text-align:justify
   }
+  
   .work-title a {
   display: grid;
   border:3px solid #e76f51;
@@ -236,7 +232,6 @@ footer {
 }
   footer nav {
     margin: 100px;
-    font-color: #e9c46a;
   }
   
   footer nav ul {
@@ -260,3 +255,79 @@ footer {
     color: #024e76;
     border-radius: 15px;
     text-shadow: none;}
+
+  
+      /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS*/
+      @media screen and (max-width: 980px) {
+      
+        header {
+          padding-bottom: 0;
+          justify-content: center;
+          position: relative;}
+
+          header nav ul {
+            margin-top: 20px;
+            width: 100%;
+            justify-content: center;
+          }
+        
+          header nav ul li a {
+            font-size: 20px;
+          }
+        
+          .hero {
+            width: 100%;
+          }
+
+          .quote {
+            display: none;
+          }
+
+          .section-title {
+            max-width: 100%;
+            display: grid;
+            border:none;
+          }
+ 
+#work {
+  display: grid;
+  margin-bottom: 0;
+}
+
+.work-title {
+width: 100%;
+  margin-top: auto;
+  grid-gap: 10px;
+  grid-auto-flow: row;
+  border:none;
+ 
+
+}
+
+footer {
+  padding-bottom: 0;
+  justify-content: space-evenly;
+  position: relative;
+  display: grid;}
+
+
+
+    footer nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    footer nav ul li a {
+      font-size: 20px;
+    }
+  }
+.main h3 {
+  padding: 10px;
+  margin: 10px;
+}
+
+  .links {
+    margin: 15px;
+    padding: 20px;
+  }
