@@ -97,7 +97,8 @@
   
   
     .section-title {
-      margin: 10px;
+      margin-top: 20px;
+      margin-right: 375px;
       display: flex;
       padding: 0px;
     }
@@ -149,6 +150,7 @@ border-right: #e76f51;}
   grid-template-columns: max-content;;
   grid-template-rows: 2;
   grid-gap: 10px;
+  flex: wrap;
   }
   
   .work-title h2 {
@@ -163,6 +165,8 @@ border-right: #e76f51;}
   .work-title .box1 {
     background-image: url(../css/images/hero-bg.jpeg);
     background-size: contain;
+    grid-column: 1/3;
+    grid-row: 1/3;
     margin-top: auto;
             background-position: cover;
             width: 750px;
@@ -174,19 +178,23 @@ border-right: #e76f51;}
   .work-title .box2 {
     background-image: url(../css/images/image.jpeg);
     color: #e9c46a;
+ 
     width: 50%;
     background-size: contain;
     background-position: center;
+    width: 250px;
+            height: 50px;
   }
   
   .work-title .box3 {
     background-image: url(../css/images/3-robot.jpeg);
     background-size: contain;
-    margin-top: auto;
+    
             background-position: center;
             background-repeat: no-repeat;
             color: #e9c46a;
-            width: 50%;
+            width: 250px;
+            height: 50px;
             text-align: right;}
 
 
@@ -194,9 +202,11 @@ border-right: #e76f51;}
     background-image: url(../css/images/social-media-marketing.jpg);
     background-size: contain;
   margin-top: 20px;
+ 
             background-position: center;
             background-repeat: no-repeat;
-            width: 50%;         
+            width: 250px;
+            height: 50px;         
             color: #e9c46a;
             text-align:justify
   }
@@ -222,7 +232,7 @@ display: flex;}
 .main {
 color: #e9c46a;
   padding: 55px;
-  margin: 50px;
+  margin: 140px;
   height: 150px;
   border-right:3px solid #e76f51;
 }
