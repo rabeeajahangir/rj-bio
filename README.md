@@ -11,7 +11,7 @@ The website has navigational tools to browse to different sections of a website.
 
 Its colors scheme has been selected to attract employers.
 
-<img width="1433" alt="Screen Shot 2021-05-02 at 9 38 56 PM" src="https://user-images.githubusercontent.com/69980221/116835539-fb9ddf80-ab90-11eb-86af-7206e9307c20.png">
+<img width="1438" alt="Screen Shot 2021-05-02 at 9 49 41 PM" src="https://user-images.githubusercontent.com/69980221/116835618-4d466a00-ab91-11eb-9baf-ad55dfd16f4d.png">
 
 The largest displayed project is the first project we completed.
 
